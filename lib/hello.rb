@@ -1,4 +1,3 @@
-
-["Tim", "Tom", "Jim"].each do |name|
+def hello_t
   puts "Hi, #{name}"
 end
