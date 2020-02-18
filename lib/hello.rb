@@ -1,6 +1,12 @@
-def hello_t
-  ["Tim", "Tom", "Jim"].each do |name|
-  if name.start_with?("T")
-	  puts "Hi, #{name}"
-  end
+def map(array)
+    i = 0
+    while array[i] do
+    yield(array, i)
+    end
+map([1, 2, 3], i) do |x|
+while x[i] do
+neg_arr = []
+ y = array[i] * -1
+neg_arr << y
+i += 1
 end
