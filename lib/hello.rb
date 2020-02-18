@@ -1,7 +1,5 @@
-require 'pry'
-
-array = ["Tim", "Tom", "Jim"]
-
-my_collect(array) do |name|
-  name.split(" ").first
+["Tim", "Tom", "Jim"].each do |name|
+  if name.start_with?("T")
+	  puts "Hi, #{name}"
+  end
 end
